@@ -1,6 +1,4 @@
 exports.config = {
-
-
     dockerOptions: {
         image: 'selenium/standalone-chrome',
         healthCheck: 'http://localhost:4444',
