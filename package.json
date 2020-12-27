@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "e2e": "lerna run e2e --stream"
+    "e2e": "lerna run e2e --stream",
+    "Manuale2e": "npx wdio ./packages/test/wdio.conf.js"
   },
   "workspaces": [
     "packages/*"
