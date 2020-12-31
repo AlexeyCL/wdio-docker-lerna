@@ -1,3 +1,4 @@
+const execSync = require('child_process').exec;
 
 exports.config = {
 
