@@ -11,3 +11,10 @@
 Problem:
 
 after execution of tests the docker process is hanging
+
+but:
+```
+cd wdio-docker-lerna/packages/test
+npm run e2e
+```
+works as expected
